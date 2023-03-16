@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+   
+body, main{
+    width: 100%dvh;
+    background-color: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(244, 38%, 16%);
+    width: 70%;
+    margin: 90px;
+    border-radius: 5px;
+   
+    
+}
+
+.text{
+    width: 50%;
+    padding: 60px;
+    margin-right: 40px;
+}
+
+
+.transparencia{
+    position: absolute;
+    background-color: hsl(277, 96%, 19%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+
+.div-img{
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+    
+    
+}
+
+
+
+h1{
+    font-size: 30px;
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.p-principal{
+    font-size: 13px;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 1,5;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+
+.indicadores{
+    display: flex;
+    margin-top: 50px;
+    gap: 15px;
+    justify-content: space-between;
+    
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+.p-indicadores{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 5px;
+    color: hsla(0, 0%, 100%, 0.6);
+    
+}
+   
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
